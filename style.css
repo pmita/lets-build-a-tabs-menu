@@ -88,3 +88,19 @@ section {
 .active p {
   display: block;
 }
+
+@media screen and (max-width: 860px) {
+  .container-left {
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    border: none;
+    border-bottom: 2px solid red;
+  }
+
+  .btn.active {
+    border: none;
+    border-bottom: 5px solid red;
+    color: red;
+  }
+}
